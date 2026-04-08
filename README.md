@@ -1,4 +1,4 @@
-# 选课管理系统（Course Selection Management System）
+# 选课管理系统（Elective Course Management System）
 
 一个基于 Java Swing + MySQL 的桌面端选课管理系统，提供**管理员 / 教师 / 学生**三类角色登录与业务操作，包括课程管理、选课、成绩录入与查询、人员信息维护、统计查询等。
 
