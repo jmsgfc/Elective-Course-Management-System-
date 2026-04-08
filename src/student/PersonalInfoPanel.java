@@ -153,7 +153,7 @@ public class PersonalInfoPanel extends JPanel {
     private void loadStudentInfo() throws SQLException {
         List<student_info> users = student_info.getAlluserinfo(studentId);
         if (!users.isEmpty()) {
-            student_info student = users.getFirst();
+            student_info student = users.get(0);
             nameLabel.setText("姓名：" + student.getSname());
             departLabel.setText("学院：" + student.getDepart());
             majorLabel.setText("专业：" + student.getMajor());

@@ -7,6 +7,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+
+    <!-- Keep only portable, project-relative dependency on libs/*.jar -->
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>

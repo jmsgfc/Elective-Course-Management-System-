@@ -62,7 +62,7 @@ public class stuGUI extends JFrame {
         List<student_info> si = new ArrayList<>();
         si = student_info.getAlluserinfo(studentId);
 
-        JLabel top = new JLabel("欢迎您，   " + si.getFirst().getSname() + " 同学！");
+        JLabel top = new JLabel("欢迎您，   " + si.get(0).getSname() + " 同学！");
         top.setBounds(20, 15, 200, 20);
         infoPanel.add(top);
 
